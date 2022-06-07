@@ -4,3 +4,9 @@
 * __Russia, Kaliningrad__
 * __Email__: i@zlatanova.ru
 * __GitHub__: [ZlatanovaIrina](https://github.com/ZlatanovaIrina "Zlatanova Irina GitHub") 
+
+## About Me
+I study JS at Rolling Scopes School
+
+
+
