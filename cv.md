@@ -41,5 +41,5 @@ getDataFromPhpByFetch('order.php', requestOptions)
 
 ## Education
 Immanuel Kant Baltic Federal University.
-Mathematical support and administration of information systems
+Mathematical support and administration of information systems.
 
