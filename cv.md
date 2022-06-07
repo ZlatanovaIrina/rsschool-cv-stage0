@@ -17,7 +17,8 @@ I study JS at Rolling Scopes School
 ## Code Examples
 ```
 let prDates = [];
-const getDataFromPhpbyFetch = async (urlAddr, params) => {
+
+const getDataFromPhpByFetch = async (urlAddr, params) => {
     const rawResponse = await fetch (urlAddr, {
         method: 'POST',
         headers: {'Content-Type': 'application/json; charset=UTF-8'},
@@ -29,7 +30,7 @@ const getDataFromPhpbyFetch = async (urlAddr, params) => {
 }
 
 requestOptions = {what_return: "getPrDates"};
-getDataFromPhpbyFetch('order.php', requestOptions)
+getDataFromPhpByFetch('order.php', requestOptions)
     .then(res => prDates = res)
     .catch(err => {
         console.log(`Loadin Error: ${err}`);
@@ -37,4 +38,8 @@ getDataFromPhpbyFetch('order.php', requestOptions)
     })
 
 ```
+
+## Education
+Immanuel Kant Baltic Federal University.
+Mathematical support and administration of information systems
 
