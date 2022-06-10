@@ -50,6 +50,18 @@ body {
     font-weight: 400;
 }
 
+.project-list-item a{
+    display: flex;
+    color: #01393a;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.7s;
+}
+
+.project-list-item a:hover {
+    color: #ff9350;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
