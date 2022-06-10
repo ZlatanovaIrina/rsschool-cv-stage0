@@ -20,12 +20,14 @@ body {
 
 .main-section {
     display: flex;
+    align-items: center;
     width: 100%;
     padding-bottom: 20px;
     border-bottom: 4px solid #57606a33;
 }
 
 .main-section-avatar {
+    height: fit-content;
     border: 1px solid #57606a;
     border-radius: 60px;
     margin-right: 25px;
@@ -37,12 +39,13 @@ body {
 }
 
 .main-title {
-    font-size: 24px;
+    font-size: 32px;
     color: #008b8b;
 }
 
 .section {
     width: 50%;
+    line-height: 28px;
 }
 
 .section-title {
@@ -77,7 +80,7 @@ body {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
     letter-spacing: 1px;
     color:#008b8b;
