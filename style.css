@@ -74,6 +74,11 @@ pre {
     margin: 0 auto;
 }
 
+.nav {
+    height: 100px;
+    margin-top: 40px;
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
