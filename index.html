@@ -64,26 +64,10 @@
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
                 <pre><code>
-                    let prDates = [];
-
-                    const getDataFromPhpByFetch = async (urlAddr, params) => {
-                        const rawResponse = await fetch (urlAddr, {
-                            method: 'POST',
-                            headers: {'Content-Type': 'application/json; charset=UTF-8'},
-                            body: JSON.stringify(params)
-                        });
-
-                        const dataFromPhp = await rawResponse.json();
-                        return dataFromPhp;
+                    function noSpace(x){
+                        let result = [...x].map((item) => item !== ' ' ? item : '').join('')
+                        return result
                     }
-
-                    requestOptions = {what_return: "getPrDates"};
-                    getDataFromPhpByFetch('order.php', requestOptions)
-                        .then(res => prDates = res)
-                        .catch(err => {
-                            console.log(`Loadin Error: ${err}`);
-                            prDates = [''];
-                        })
                 </code></pre>
             </section>
             <section class="section" id="projects">
