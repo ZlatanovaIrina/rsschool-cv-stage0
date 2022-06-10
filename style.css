@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #57606a;
+}
+
+.main-section {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #57606a33;
+}
+
+.main-section-avatar {
+    border: 1px solid #57606a;
+    border-radius: 60px;
+    margin-right: 25px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-title {
+    font-size: 24px;
+    color: #008b8b;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-title {
+    color: #008b8b;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color:#008b8b;
+    transition: color 0.7s;
+}
+
+.nav-link:hover {
+    color: #ff9350;
+}
+
+.contacts-list-item a {
+    text-decoration: none;
+    color: #01393a;
+    transition: color 0.7s;
+}
+
+.contacts-list-item a:hover {
+    color: #ff9350;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #008b8b;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-year-git-container {
+    display: flex;
+    color: #ffffff;
+}
+
+.footer-year-git-container a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #ff9350;
+    transition: color 0.7s;
+}
+
+.footer-year-git-container a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.rs-school-link {
+    width: 120px;
+    height: 45px;
+    background-image: url("assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
