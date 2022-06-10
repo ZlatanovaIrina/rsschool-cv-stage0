@@ -18,6 +18,10 @@ body {
     color: #57606a;
 }
 
+pre {
+    white-space: pre-wrap;
+}
+
 .main-section {
     display: flex;
     align-items: center;
